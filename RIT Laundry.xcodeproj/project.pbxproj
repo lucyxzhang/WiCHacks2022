@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		661C1FA927CB23AC0051C73A /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661C1FA827CB23AC0051C73A /* TimerView.swift */; };
+		661C1FAF27CB8F150051C73A /* HowToViewVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661C1FAE27CB8F150051C73A /* HowToViewVideo.swift */; };
+		661C1FB127CB90230051C73A /* liquiddetergent.mov in Resources */ = {isa = PBXBuildFile; fileRef = 661C1FB027CB90230051C73A /* liquiddetergent.mov */; };
+		661C1FB327CBAAFC0051C73A /* VideoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661C1FB227CBAAFC0051C73A /* VideoPage.swift */; };
+		661C1FB527CBB1820051C73A /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 661C1FB427CBB1820051C73A /* logo.png */; };
+		661C1FB727CBB4A40051C73A /* logo60.png in Resources */ = {isa = PBXBuildFile; fileRef = 661C1FB627CBB4A40051C73A /* logo60.png */; };
+		666C854227CAA7A200DEAC1D /* RIT_LaundryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666C854127CAA7A200DEAC1D /* RIT_LaundryApp.swift */; };
+		666C854427CAA7A200DEAC1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666C854327CAA7A200DEAC1D /* ContentView.swift */; };
+		666C854627CAA7A400DEAC1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 666C854527CAA7A400DEAC1D /* Assets.xcassets */; };
+		666C854927CAA7A400DEAC1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 666C854827CAA7A400DEAC1D /* Preview Assets.xcassets */; };
+		666C855327CAA7A400DEAC1D /* RIT_LaundryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666C855227CAA7A400DEAC1D /* RIT_LaundryTests.swift */; };
+		666C855D27CAA7A400DEAC1D /* RIT_LaundryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666C855C27CAA7A400DEAC1D /* RIT_LaundryUITests.swift */; };
+		666C855F27CAA7A400DEAC1D /* RIT_LaundryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666C855E27CAA7A400DEAC1D /* RIT_LaundryUITestsLaunchTests.swift */; };
+		666C856C27CAAB6E00DEAC1D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666C856B27CAAB6E00DEAC1D /* HomeView.swift */; };
+		666C856E27CAABFB00DEAC1D /* HowToView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666C856D27CAABFB00DEAC1D /* HowToView.swift */; };
+		666C857027CAACB600DEAC1D /* VacancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666C856F27CAACB600DEAC1D /* VacancyView.swift */; };
+		666C857427CAAD0200DEAC1D /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666C857327CAAD0200DEAC1D /* ReportView.swift */; };
+		666C857A27CAB81600DEAC1D /* Collapsible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666C857927CAB81600DEAC1D /* Collapsible.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		666C854F27CAA7A400DEAC1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 666C853627CAA7A200DEAC1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 666C853D27CAA7A200DEAC1D;
+			remoteInfo = "RIT Laundry";
+		};
+		666C855927CAA7A400DEAC1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 666C853627CAA7A200DEAC1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 666C853D27CAA7A200DEAC1D;
+			remoteInfo = "RIT Laundry";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		661C1FA827CB23AC0051C73A /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		661C1FAE27CB8F150051C73A /* HowToViewVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HowToViewVideo.swift; sourceTree = "<group>"; };
+		661C1FB027CB90230051C73A /* liquiddetergent.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = liquiddetergent.mov; path = ../../../Downloads/liquiddetergent.mov; sourceTree = "<group>"; };
+		661C1FB227CBAAFC0051C73A /* VideoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPage.swift; sourceTree = "<group>"; };
+		661C1FB427CBB1820051C73A /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../../Downloads/logo.png; sourceTree = "<group>"; };
+		661C1FB627CBB4A40051C73A /* logo60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo60.png; path = ../../../Downloads/logo60.png; sourceTree = "<group>"; };
+		661C1FB827CBC7FF0051C73A /* RIT-Laundry-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "RIT-Laundry-Info.plist"; sourceTree = SOURCE_ROOT; };
+		666C853E27CAA7A200DEAC1D /* RIT Laundry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RIT Laundry.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		666C854127CAA7A200DEAC1D /* RIT_LaundryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RIT_LaundryApp.swift; sourceTree = "<group>"; };
+		666C854327CAA7A200DEAC1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		666C854527CAA7A400DEAC1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		666C854827CAA7A400DEAC1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		666C854E27CAA7A400DEAC1D /* RIT LaundryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RIT LaundryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		666C855227CAA7A400DEAC1D /* RIT_LaundryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RIT_LaundryTests.swift; sourceTree = "<group>"; };
+		666C855827CAA7A400DEAC1D /* RIT LaundryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RIT LaundryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		666C855C27CAA7A400DEAC1D /* RIT_LaundryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RIT_LaundryUITests.swift; sourceTree = "<group>"; };
+		666C855E27CAA7A400DEAC1D /* RIT_LaundryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RIT_LaundryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		666C856B27CAAB6E00DEAC1D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		666C856D27CAABFB00DEAC1D /* HowToView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToView.swift; sourceTree = "<group>"; };
+		666C856F27CAACB600DEAC1D /* VacancyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacancyView.swift; sourceTree = "<group>"; };
+		666C857327CAAD0200DEAC1D /* ReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportView.swift; sourceTree = "<group>"; };
+		666C857927CAB81600DEAC1D /* Collapsible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collapsible.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		666C853B27CAA7A200DEAC1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666C854B27CAA7A400DEAC1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666C855527CAA7A400DEAC1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		666C853527CAA7A200DEAC1D = {
+			isa = PBXGroup;
+			children = (
+				666C854027CAA7A200DEAC1D /* RIT Laundry */,
+				666C855127CAA7A400DEAC1D /* RIT LaundryTests */,
+				666C855B27CAA7A400DEAC1D /* RIT LaundryUITests */,
+				666C853F27CAA7A200DEAC1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		666C853F27CAA7A200DEAC1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				666C853E27CAA7A200DEAC1D /* RIT Laundry.app */,
+				666C854E27CAA7A400DEAC1D /* RIT LaundryTests.xctest */,
+				666C855827CAA7A400DEAC1D /* RIT LaundryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		666C854027CAA7A200DEAC1D /* RIT Laundry */ = {
+			isa = PBXGroup;
+			children = (
+				661C1FB827CBC7FF0051C73A /* RIT-Laundry-Info.plist */,
+				661C1FB627CBB4A40051C73A /* logo60.png */,
+				661C1FB427CBB1820051C73A /* logo.png */,
+				661C1FB027CB90230051C73A /* liquiddetergent.mov */,
+				666C854127CAA7A200DEAC1D /* RIT_LaundryApp.swift */,
+				666C854327CAA7A200DEAC1D /* ContentView.swift */,
+				666C856F27CAACB600DEAC1D /* VacancyView.swift */,
+				666C857927CAB81600DEAC1D /* Collapsible.swift */,
+				661C1FA827CB23AC0051C73A /* TimerView.swift */,
+				666C857327CAAD0200DEAC1D /* ReportView.swift */,
+				666C856D27CAABFB00DEAC1D /* HowToView.swift */,
+				661C1FAE27CB8F150051C73A /* HowToViewVideo.swift */,
+				661C1FB227CBAAFC0051C73A /* VideoPage.swift */,
+				666C856B27CAAB6E00DEAC1D /* HomeView.swift */,
+				666C854527CAA7A400DEAC1D /* Assets.xcassets */,
+				666C854727CAA7A400DEAC1D /* Preview Content */,
+			);
+			path = "RIT Laundry";
+			sourceTree = "<group>";
+		};
+		666C854727CAA7A400DEAC1D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				666C854827CAA7A400DEAC1D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		666C855127CAA7A400DEAC1D /* RIT LaundryTests */ = {
+			isa = PBXGroup;
+			children = (
+				666C855227CAA7A400DEAC1D /* RIT_LaundryTests.swift */,
+			);
+			path = "RIT LaundryTests";
+			sourceTree = "<group>";
+		};
+		666C855B27CAA7A400DEAC1D /* RIT LaundryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				666C855C27CAA7A400DEAC1D /* RIT_LaundryUITests.swift */,
+				666C855E27CAA7A400DEAC1D /* RIT_LaundryUITestsLaunchTests.swift */,
+			);
+			path = "RIT LaundryUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		666C853D27CAA7A200DEAC1D /* RIT Laundry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 666C856227CAA7A400DEAC1D /* Build configuration list for PBXNativeTarget "RIT Laundry" */;
+			buildPhases = (
+				666C853A27CAA7A200DEAC1D /* Sources */,
+				666C853B27CAA7A200DEAC1D /* Frameworks */,
+				666C853C27CAA7A200DEAC1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RIT Laundry";
+			productName = "RIT Laundry";
+			productReference = 666C853E27CAA7A200DEAC1D /* RIT Laundry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		666C854D27CAA7A400DEAC1D /* RIT LaundryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 666C856527CAA7A400DEAC1D /* Build configuration list for PBXNativeTarget "RIT LaundryTests" */;
+			buildPhases = (
+				666C854A27CAA7A400DEAC1D /* Sources */,
+				666C854B27CAA7A400DEAC1D /* Frameworks */,
+				666C854C27CAA7A400DEAC1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				666C855027CAA7A400DEAC1D /* PBXTargetDependency */,
+			);
+			name = "RIT LaundryTests";
+			productName = "RIT LaundryTests";
+			productReference = 666C854E27CAA7A400DEAC1D /* RIT LaundryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		666C855727CAA7A400DEAC1D /* RIT LaundryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 666C856827CAA7A400DEAC1D /* Build configuration list for PBXNativeTarget "RIT LaundryUITests" */;
+			buildPhases = (
+				666C855427CAA7A400DEAC1D /* Sources */,
+				666C855527CAA7A400DEAC1D /* Frameworks */,
+				666C855627CAA7A400DEAC1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				666C855A27CAA7A400DEAC1D /* PBXTargetDependency */,
+			);
+			name = "RIT LaundryUITests";
+			productName = "RIT LaundryUITests";
+			productReference = 666C855827CAA7A400DEAC1D /* RIT LaundryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		666C853627CAA7A200DEAC1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					666C853D27CAA7A200DEAC1D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					666C854D27CAA7A400DEAC1D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 666C853D27CAA7A200DEAC1D;
+					};
+					666C855727CAA7A400DEAC1D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 666C853D27CAA7A200DEAC1D;
+					};
+				};
+			};
+			buildConfigurationList = 666C853927CAA7A200DEAC1D /* Build configuration list for PBXProject "RIT Laundry" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 666C853527CAA7A200DEAC1D;
+			productRefGroup = 666C853F27CAA7A200DEAC1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				666C853D27CAA7A200DEAC1D /* RIT Laundry */,
+				666C854D27CAA7A400DEAC1D /* RIT LaundryTests */,
+				666C855727CAA7A400DEAC1D /* RIT LaundryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		666C853C27CAA7A200DEAC1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661C1FB127CB90230051C73A /* liquiddetergent.mov in Resources */,
+				661C1FB527CBB1820051C73A /* logo.png in Resources */,
+				666C854927CAA7A400DEAC1D /* Preview Assets.xcassets in Resources */,
+				661C1FB727CBB4A40051C73A /* logo60.png in Resources */,
+				666C854627CAA7A400DEAC1D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666C854C27CAA7A400DEAC1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666C855627CAA7A400DEAC1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		666C853A27CAA7A200DEAC1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661C1FA927CB23AC0051C73A /* TimerView.swift in Sources */,
+				666C856C27CAAB6E00DEAC1D /* HomeView.swift in Sources */,
+				661C1FB327CBAAFC0051C73A /* VideoPage.swift in Sources */,
+				666C857027CAACB600DEAC1D /* VacancyView.swift in Sources */,
+				666C854427CAA7A200DEAC1D /* ContentView.swift in Sources */,
+				666C857427CAAD0200DEAC1D /* ReportView.swift in Sources */,
+				666C857A27CAB81600DEAC1D /* Collapsible.swift in Sources */,
+				666C856E27CAABFB00DEAC1D /* HowToView.swift in Sources */,
+				666C854227CAA7A200DEAC1D /* RIT_LaundryApp.swift in Sources */,
+				661C1FAF27CB8F150051C73A /* HowToViewVideo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666C854A27CAA7A400DEAC1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				666C855327CAA7A400DEAC1D /* RIT_LaundryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666C855427CAA7A400DEAC1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				666C855F27CAA7A400DEAC1D /* RIT_LaundryUITestsLaunchTests.swift in Sources */,
+				666C855D27CAA7A400DEAC1D /* RIT_LaundryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		666C855027CAA7A400DEAC1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 666C853D27CAA7A200DEAC1D /* RIT Laundry */;
+			targetProxy = 666C854F27CAA7A400DEAC1D /* PBXContainerItemProxy */;
+		};
+		666C855A27CAA7A400DEAC1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 666C853D27CAA7A200DEAC1D /* RIT Laundry */;
+			targetProxy = 666C855927CAA7A400DEAC1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		666C856027CAA7A400DEAC1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		666C856127CAA7A400DEAC1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		666C856327CAA7A400DEAC1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RIT Laundry/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RIT-Laundry-Info.plist";
+				INFOPLIST_KEY_NSMainNibFile = ContentView;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WiCHacks.RIT-Laundry";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		666C856427CAA7A400DEAC1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RIT Laundry/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RIT-Laundry-Info.plist";
+				INFOPLIST_KEY_NSMainNibFile = ContentView;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WiCHacks.RIT-Laundry";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		666C856627CAA7A400DEAC1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WiCHacks.RIT-LaundryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RIT Laundry.app/RIT Laundry";
+			};
+			name = Debug;
+		};
+		666C856727CAA7A400DEAC1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WiCHacks.RIT-LaundryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RIT Laundry.app/RIT Laundry";
+			};
+			name = Release;
+		};
+		666C856927CAA7A400DEAC1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WiCHacks.RIT-LaundryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RIT Laundry";
+			};
+			name = Debug;
+		};
+		666C856A27CAA7A400DEAC1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WiCHacks.RIT-LaundryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RIT Laundry";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		666C853927CAA7A200DEAC1D /* Build configuration list for PBXProject "RIT Laundry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				666C856027CAA7A400DEAC1D /* Debug */,
+				666C856127CAA7A400DEAC1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		666C856227CAA7A400DEAC1D /* Build configuration list for PBXNativeTarget "RIT Laundry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				666C856327CAA7A400DEAC1D /* Debug */,
+				666C856427CAA7A400DEAC1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		666C856527CAA7A400DEAC1D /* Build configuration list for PBXNativeTarget "RIT LaundryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				666C856627CAA7A400DEAC1D /* Debug */,
+				666C856727CAA7A400DEAC1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		666C856827CAA7A400DEAC1D /* Build configuration list for PBXNativeTarget "RIT LaundryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				666C856927CAA7A400DEAC1D /* Debug */,
+				666C856A27CAA7A400DEAC1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 666C853627CAA7A200DEAC1D /* Project object */;
+}
